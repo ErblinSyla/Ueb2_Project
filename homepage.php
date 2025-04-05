@@ -430,7 +430,7 @@
     <?php 
 
     class FormData{
-        $name;
+        public $name;
         $email;
 
         function __construct($name, $email){
